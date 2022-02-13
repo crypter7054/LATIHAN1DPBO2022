@@ -1,7 +1,8 @@
 <?php
 
+// deklarasi kelas
 class Mahasiswa{
-    
+
     // deklarasi atribut private
     private $NIM = 0;
     private $Nama = "";
@@ -18,7 +19,7 @@ class Mahasiswa{
         $this->Semester = $Semester;
     }
 
-    // deklarasi setter sebagai method Write
+    // deklarasi method set
     public function setNIM($NIM){
         $this->NIM = $NIM;
     }
@@ -31,11 +32,11 @@ class Mahasiswa{
     public function setProdi($Prodi){
         $this->Prodi = $Prodi;
     }
-    public function setNIM($Semester){
+    public function setSemester($Semester){
         $this->Semester = $Semester;
     }
 
-    // deklarasi getter sebagai method Read Only
+    // deklarasi method get
     public function getNIM(){
         return $this->NIM;
     }
@@ -48,7 +49,7 @@ class Mahasiswa{
     public function getProdi(){
         return $this->Prodi;
     }
-    public function getNIM(){
+    public function getSemester(){
         return $this->Semester;
     }
 
