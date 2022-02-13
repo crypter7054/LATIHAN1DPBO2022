@@ -1,6 +1,4 @@
 # LATIHAN1DPBO2022
-Kumpulan source code tugas latihan praktikum mata kuliah Desain dan Pemrograman Berorientasi Objek (DBPO) tahun 2022
-
 ## Identitas
 - Nama : Yosafat
 - NIM  : 2009929
@@ -9,8 +7,8 @@ Kumpulan source code tugas latihan praktikum mata kuliah Desain dan Pemrograman 
 ## Janji
 Saya Yosafat (2009929) mengerjakan evaluasi Tugas Praktikum dalam mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
 
-## Latihan 1. Point a
-**Soal** : Buat program untuk membuat daftar mahasiswa yang memiliki atribut NIM, Nama, Jenis Kelamin, Program Studi, dan Semester, menggunakan bahasa PHP!
+## Point a
+**Soal** : _Buat program untuk membuat daftar mahasiswa yang memiliki atribut NIM, Nama, Jenis Kelamin, Program Studi, dan Semester, menggunakan bahasa PHP!_
 
 ### Analisis
 Berdasarkan soal point a, maka dapat diidentifikasi beberapa hal yaitu sebagai berikut:
@@ -24,8 +22,8 @@ Berdasarkan analisis terhadap point a, maka program dapat didesain sebagai berik
 2. File index.php merupakan program dengan fungsi utama yang akan dijalankan pertama kali, pada file ini perlu untuk meng-import file kelas yaitu Mahasiswa.php, selanjutnya instasi objek dengan nama mahasiswa1. Kemudian untuk menambahkan data pada objek maka akan dipanggil method setter. Terakhir untuk menampilkan data objek maka akan dipanggil method getter.
 3. File Mahasiswa.php merupakan program yang didesain untuk membuat kelas dari objek yang akan dibentuk pada file index.php. Pada file ini terdapat deklarasi kelas, atribut private, dan beberapa method yang digunakan untuk membuat sebuah objek
 
-## Latihan 1. Point b
-**Soal** : Buat program untuk membuat daftar tim sepakbola yang memiliki atribut nama tim, negara asal tim, tahun berdiri tim, serta pemain, menggunakan setiap bahasa (C++, PHP, Python dan Java)!
+## Point b
+**Soal** : _Buat program untuk membuat daftar tim sepakbola yang memiliki atribut nama tim, negara asal tim, tahun berdiri tim, serta pemain, menggunakan setiap bahasa (C++, PHP, Python dan Java)!_
 
 ### Analisis
 Berdasarkan soal point b, maka dapat diidentifikasi beberapa hal yaitu sebagai berikut:
